@@ -12,7 +12,7 @@
   "core_data": {
     "url": "https://app.coredata.cloud",
     "project_ids": [
-      "<FairData Project ID here>"
+      "97"
     ]
   },
   "i18n": {
@@ -30,33 +30,23 @@
   ],
   "search": [
     {
-      "name": "places",
-      "route": "/places",
+      "name": "people",
+      "route": "/people",
       "geosearch": true,
       "map": {
-        "geometry": "geometry",
+        "geometry": "34c37ca9-104b-423f-9c13-ce30322ca0fa.geometry",
         "max_zoom": 14,
         "zoom_to_place": true
       },
-      "timeline": {
-        "date_range_facet": "event_range_facet",
-        "event_path": "<place event relationship UUID here>"
-      },
-      "visualizations": [
-        {
-          "name": "events_by_year",
-          "path": "<place event relationship UUID here>"
-        }
-      ],
       "result_card": {
         "title": "name"
       },
       "typesense": {
-        "host": "<host>",
+        "host": "mblycwjup34a0tedp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "<search only API key>",
-        "index_name": "places",
+        "api_key": "q4pCYr8IZMZeDAzm5PGcxtMqcp9JwKLn",
+        "index_name": "people",
         "query_by": "name",
         "default_sort": "name"
       }
