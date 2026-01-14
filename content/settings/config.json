@@ -1,0 +1,65 @@
+{
+  "detail_pages": [],
+  "branding": {
+    "footer_login": true
+  },
+  "content": {
+    "collections": [
+      "paths",
+      "posts"
+    ]
+  },
+  "core_data": {
+    "url": "https://app.coredata.cloud",
+    "project_ids": [
+      "<FairData Project ID here>"
+    ]
+  },
+  "i18n": {
+    "default_locale": "en",
+    "locales": [
+      "en"
+    ]
+  },
+  "layers": [
+    {
+      "name": "Maptiler DataViz Style",
+      "layer_type": "vector",
+      "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
+    }
+  ],
+  "search": [
+    {
+      "name": "places",
+      "route": "/places",
+      "geosearch": true,
+      "map": {
+        "geometry": "geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "timeline": {
+        "date_range_facet": "event_range_facet",
+        "event_path": "<place event relationship UUID here>"
+      },
+      "visualizations": [
+        {
+          "name": "events_by_year",
+          "path": "<place event relationship UUID here>"
+        }
+      ],
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "<host>",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "<search only API key>",
+        "index_name": "places",
+        "query_by": "name",
+        "default_sort": "name"
+      }
+    }
+  ]
+}
