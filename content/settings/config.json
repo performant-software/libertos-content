@@ -1,5 +1,8 @@
 {
-  "detail_pages": [],
+  "detail_pages": [
+    "people",
+    "places"
+  ],
   "branding": {
     "footer_login": true
   },
