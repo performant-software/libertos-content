@@ -1,9 +1,9 @@
 {
   "detail_pages": {
-    "models": [
-      "people",
-      "places"
-    ]
+    "models": {
+      "people": {},
+      "places": {}
+    }
   },
   "branding": {
     "footer_login": true
