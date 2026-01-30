@@ -13,10 +13,18 @@
     {
       "label": "Pages",
       "options": [
-        {"label": "About", "href": "/en/pages/About"},
-        {"label": "Maps", "href": "/en/pages/Maps"},
-        {"label": "Laws and Regulations", "href": "/en/pages/Laws-and-Regulations"},
-        {"label": "Resources", "href": "/en/pages/Resources"}
+        {
+          "label": "About",
+          "href": "/en/pages/About"
+        },
+        {
+          "label": "Laws and Regulations",
+          "href": "/en/pages/Laws-and-Regulations"
+        },
+        {
+          "label": "Resources",
+          "href": "/en/pages/Resources"
+        }
       ],
       "_template": "Dropdown"
     },
