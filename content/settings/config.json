@@ -58,7 +58,7 @@
       }
     },
     {
-      "name": "archives",
+      "name": "places",
       "route": "/places",
       "geosearch": true,
       "map": {
