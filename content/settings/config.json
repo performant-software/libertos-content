@@ -56,6 +56,28 @@
         "query_by": "name",
         "default_sort": "name"
       }
+    },
+    {
+      "name": "archives",
+      "route": "/places",
+      "geosearch": true,
+      "map": {
+        "geometry": "geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "mblycwjup34a0tedp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "q4pCYr8IZMZeDAzm5PGcxtMqcp9JwKLn",
+        "index_name": "archives",
+        "query_by": "name",
+        "default_sort": "name"
+      }
     }
   ]
 }
