@@ -11,6 +11,11 @@
       "_template": "URL"
     },
     {
+      "label": "Archives",
+      "href": "/en/search/places/",
+      "_template": "URL"
+    },
+    {
       "label": "Pages",
       "options": [
         {
