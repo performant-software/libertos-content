@@ -54,7 +54,15 @@
         "api_key": "q4pCYr8IZMZeDAzm5PGcxtMqcp9JwKLn",
         "index_name": "people",
         "query_by": "name",
-        "default_sort": "name"
+        "default_sort": "name",
+        "facets": {
+          "exclude": [
+            "name_facet",
+            "names_facet",
+            "owner_project.name_facet",
+            "all_projects.name_facet"
+          ]
+        }
       }
     },
     {
@@ -76,7 +84,15 @@
         "api_key": "q4pCYr8IZMZeDAzm5PGcxtMqcp9JwKLn",
         "index_name": "archives",
         "query_by": "name",
-        "default_sort": "name"
+        "default_sort": "name",
+        "facets": {
+          "exclude": [
+            "name_facet",
+            "names_facet",
+            "owner_project.name_facet",
+            "all_projects.name_facet"
+          ]
+        }
       }
     }
   ]
