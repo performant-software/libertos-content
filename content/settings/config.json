@@ -12,7 +12,8 @@
     "collections": [
       "paths",
       "posts"
-    ]
+    ],
+    "localize_pages": true
   },
   "core_data": {
     "url": "https://fairdata.performant.studio",
